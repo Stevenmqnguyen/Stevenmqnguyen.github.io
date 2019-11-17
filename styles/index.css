@@ -1,0 +1,60 @@
+.body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin:auto;
+}
+
+.logo {
+    align-self: flex-start;
+    color: white;
+    background-color: black;
+    font-family: Arial;
+    font-size: .5em;
+    padding: 0em 3em 0em 3em;
+    margin: 5em 0em 0em 3em;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+  }
+
+li {
+    margin: 0em 1.5em 0em 1.5em;
+    color: rgba(108, 108, 108, 1);
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bio {
+    margin: 0em 35em 2em 35em;
+}
+
+.bio-main {
+    font-size: 2.25em;
+    margin: 0em 0em 2em 0em;
+}
+
+.bio-action {
+    font-size: 1em;
+    color: rgba(70, 70, 70, 1);
+}
+
+.project {
+
+}
+
+.project-element {
+    margin: 1em 1em 1em 1em;
+}
